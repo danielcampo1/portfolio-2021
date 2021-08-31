@@ -1,18 +1,23 @@
 import React from 'react'
+import Particles from 'react-particles-js'
+import styled from 'styled-components';
 
-function homePage() {
+function HomePage() {
     return (
        <HomePageStyled>
-
+           <div className="p-particles-js">
+                <Particles />
+           </div>
        </HomePageStyled>
     )
 }
 
-HomePageStyled = styled.header`
+const HomePageStyled = styled.header`
     width: 100%;
     height: 100vh;
+    position: relative;
 `;
 
-export default homePage
+export default HomePage
 
 
