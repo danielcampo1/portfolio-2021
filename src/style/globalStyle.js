@@ -27,7 +27,7 @@ const GlobalStyle = createGlobalStyle`
     }
 
     body{
-        background-color: var(--background-dark-color);
+        background-color: beige;
         color: var(--font-light-color);
     }
 
@@ -39,4 +39,4 @@ const GlobalStyle = createGlobalStyle`
 
 `;
 
-export default GlobalStyle
+export default GlobalStyle;
