@@ -9,7 +9,7 @@ function mainCard() {
         <div className="picture">
           <img src={image} alt=""></img>
         </div>
-        <div className="Name">hello</div>
+        <div className="Name"></div>
         <div className="icon-links">
           <div className="icon-1"></div>
           <div className="icon-2"></div>
@@ -22,14 +22,13 @@ function mainCard() {
 
 const MainContentStled = styled.main`
   background-color: red;
+
   .main-card {
-    margin-top: 10rem;
-    margin-left: 20rem;
+    background-color: black;
+    margin: 4em;
   }
   .picture {
     img {
-      width: 200px;
-      height: 200px;
     }
   }
 `;
